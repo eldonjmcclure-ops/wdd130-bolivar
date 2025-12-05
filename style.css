@@ -1,3 +1,12 @@
+:root {
+    --c1-Primary: #004539;
+    --c2-Secondary: #FEF9EF;
+    --c3-Accent1: #736F72;
+    --c4-Accent2: #549F93;
+}
+
+/* GENERAL CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +16,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin: 50px;
+    background-color: var(--c2-Secondary);
 }
 
 .logo {
@@ -50,3 +60,17 @@ nav a {
     text-decoration: none;
     grid-row: 2/3;
 }
+
+
+/* COSTCO CSS */
+
+body {
+    background-color: var(--c1-Primary);
+}
+
+main {
+    background-color: var(--c2-Secondary);
+}
+
+
+/* WALMART CSS */
