@@ -72,5 +72,8 @@ main {
     background-color: var(--c2-Secondary);
 }
 
+#costco-img {
+    width: 100%;
+}
 
 /* WALMART CSS */
